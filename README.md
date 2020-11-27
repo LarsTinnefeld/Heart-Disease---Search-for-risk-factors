@@ -1,4 +1,4 @@
-# Heart-Disease---Search-for-risk-factors
+# Heart-Disease - Search for risk factors
 
 ![medical device](https://images.unsplash.com/photo-1513224502586-d1e602410265?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80)
 
@@ -18,6 +18,10 @@ The analysed dataset contains a range of symptoms and as the a result variable i
 
 ## Objectives  <a name="objectives"></a>
 The target is to analyse the data and generate a model which predicts based on the input variables if the condition of the patient is malignent or benign.
+Items to investigate:
+- Age distibution of the patients
+- Chest pain vs. diagnosis - gender comparison
+- Precision of prediction algorithm
 
 ## Approach  <a name="approach"></a>
 - Data import
@@ -53,8 +57,12 @@ Donor:
 - thal: 3 = normal; 6 = fixed defect; 7 = reversable defect
 
 ## Data preparation  <a name="preparation"></a>
+All details are contained in the notebook ('heard_disease_research.ipynb').
 
 ## Evaluation  <a name="evaluation"></a>
+
+**Age distibution of the patients**
+
 
 ## References and links  <a name="references"></a>
 
