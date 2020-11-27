@@ -30,7 +30,7 @@ Items to investigate:
 - Evaluation
 
 ## Data  <a name="data"></a>
-The Cleveland database was provided by in Kaggle.
+The Cleveland database was provided by in [Kaggle](https://www.kaggle.com/ronitf/heart-disease-uci).
 
 Creators:
 - Hungarian Institute of Cardiology. Budapest: Andras Janosi, M.D.
@@ -63,8 +63,25 @@ All details are contained in the notebook ('heard_disease_research.ipynb').
 
 **Age distibution of the patients**
 
+![age distribution](https://github.com/LarsTinnefeld/Heart-Disease---Search-for-risk-factors/blob/main/Age_dist.png?raw=true)
+
+The mean of the patients' age is end 50 with a peak at round about 60.
+
+**Chest pain vs. diagnosis - gender comparison**
+
+![cp_diagnosis_gender](https://github.com/LarsTinnefeld/Heart-Disease---Search-for-risk-factors/blob/main/CP_diagnosis_gender.png?raw=true)
+
+Males (flag 1) show an increase of chest pain (cp) while at the same time the likelyhood of a serious condition drops. For woman (flag 0) is the trend reversed.
+
+**Precision of prediction algorithm**
+
+![conf_matric](https://github.com/LarsTinnefeld/Heart-Disease---Search-for-risk-factors/blob/main/Conf_matrix.PNG?raw=true)
+
+The confustion matric of the generated linear regression model shows a prediction presision of 82%.
 
 ## References and links  <a name="references"></a>
+
+Dataset in [Kaggle](https://www.kaggle.com/ronitf/heart-disease-uci)
 
 
 
